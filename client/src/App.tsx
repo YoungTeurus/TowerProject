@@ -1,5 +1,5 @@
 import React from 'react';
-import { Playground } from './game/Playground';
+import { Playground } from './components/Playground';
 
 function App() {
   return (

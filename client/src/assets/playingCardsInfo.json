@@ -1,0 +1,69 @@
+{
+    "prefix": "playingCard",
+    "cards": {
+        "playingCard-1-1": {
+            "suit": "hearts",
+            "value": "A"
+        },
+        "playingCard-1-2": {
+            "suit": "hearts",
+            "value": "2"
+        },
+        "playingCard-1-3": {
+            "suit": "hearts",
+            "value": "3"
+        },
+        "playingCard-1-4": {
+            "suit": "hearts",
+            "value": "4"
+        },
+        "playingCard-2-1": {
+            "suit": "hearts",
+            "value": "5"
+        },
+        "playingCard-2-2": {
+            "suit": "hearts",
+            "value": "6"
+        },
+        "playingCard-2-3": {
+            "suit": "hearts",
+            "value": "7"
+        },
+        "playingCard-2-4": {
+            "suit": "hearts",
+            "value": "8"
+        },
+        "playingCard-3-1": {
+            "suit": "hearts",
+            "value": "9"
+        },
+        "playingCard-3-2": {
+            "suit": "hearts",
+            "value": "10"
+        },
+        "playingCard-3-3": {
+            "suit": "hearts",
+            "value": "J"
+        },
+        "playingCard-3-4": {
+            "suit": "hearts",
+            "value": "Q"
+        },
+        "playingCard-4-1": {
+            "suit": "hearts",
+            "value": "K"
+        },
+        "playingCard-4-2": {
+            "suit": null,
+            "value": "REDJOKER"
+        },
+        "playingCard-4-3": {
+            "suit": null,
+            "value": "BLUEBACK"
+        },
+        "playingCard-4-4": {
+            "suit": null,
+            "value": "REDBACK"
+        }
+    }
+}

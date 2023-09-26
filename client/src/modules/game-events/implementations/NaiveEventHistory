@@ -1,0 +1,34 @@
+import { GameEvent } from "../entities/GameEvent";
+import { EventHistory } from "../interfaces/EventHistory";
+
+export class NaiveEventHistory implements EventHistory {
+
+    // Event stack - new events are at the end
+    events: GameEvent[];
+
+    getAll(): GameEvent[] {
+        return this.events;
+    }
+    getLast(): GameEvent | null {
+        const size = this.events.length;
+        if (size === 0)
+            return null;
+        return this.events.at(size - 1) as GameEvent;
+    }
+    getAllAfter(eid: string): GameEvent[] {
+        const index = this.events.findIndex((event) => event.eid === eid);
+        if (index === -1)
+            return [];
+        return this.events.slice(index);
+    }
+    contains(eid: string): boolean {
+        return this.events.findIndex(event => event.eid === eid) > -1;
+    }
+    add(event: GameEvent): void {
+        this.events.push(event);
+    }
+    clear(): void {
+        this.events = [];
+    }
+
+}
